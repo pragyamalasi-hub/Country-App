@@ -1,11 +1,28 @@
 const variable= new URLSearchParams(location.search).get('name');
 const Info= document.querySelector('.country-info');
-const modeChanger = document.querySelector('.mode-change');
 
-// apply saved theme on load
-if (localStorage.getItem('theme') === 'dark') {
-  document.body.classList.add('dark');
-}
+document.addEventListener('DOMContentLoaded', () => {
+  const modeChanger = document.querySelector('.mode-change');
+
+  // Apply saved theme
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
+  }
+
+  // Only attach listener if element exists
+  if (modeChanger) {
+    modeChanger.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+
+      if (document.body.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
+    });
+  }
+});
+
 
 modeChanger.addEventListener('click', () => {
   document.body.classList.toggle('dark');
