@@ -21,7 +21,7 @@ fetch('https://restcountries.com/v3.1/all?fields=name,capital,flags,region,popul
         console.log(country);
         const countryCard = document.createElement('a');
         countryCard.classList.add('country-card');
-        countryCard.href=`/country.html?name=${country.name.common}`;
+        countryCard.href=`country.html?name=${country.name.common}`;
 
         // const cardImg= document.createElement('img');   [LENGTHY METHOD]
         // cardImg.src= country.flags.svg;
@@ -58,7 +58,7 @@ filterbyRegion.addEventListener( 'change', (e) => {
             console.log(country);
             const countryCard = document.createElement('a');
             countryCard.classList.add('country-card');
-            countryCard.href=`/country.html?name=${country.name.common}`;
+            countryCard.href=`country.html?name=${country.name.common}`;
 
         // const cardImg= document.createElement('img');   [LENGTHY METHOD]
         // cardImg.src= country.flags.svg;
@@ -97,7 +97,7 @@ searchInput.addEventListener('input', (e) => {
   filtered.forEach(country => {
     const countryCard = document.createElement('a');
     countryCard.classList.add('country-card');
-    countryCard.href = `/country.html?name=${country.name.common}`;
+    countryCard.href = `country.html?name=${country.name.common}`;
 
     countryCard.innerHTML = `
       <img src="${country.flags.svg}" alt="flag">
