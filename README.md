@@ -7,7 +7,7 @@ Built with clean UI principles and dynamic JavaScript functionality.
 ---
 
 ## 🚀 Live Demo
-🔗 (Add your GitHub Pages link here)
+🔗 GitHub pages link: https://pragyamalasi-hub.github.io/Country-App/
 
 ---
 
