@@ -6,9 +6,9 @@ fetch(`https://restcountries.com/v3.1/name/${variable}?fullText=true`)
 .then( data => {
     data.forEach(country =>{
         // console.log(country);
-        const infoContainer= document.createElement('a');
+        const infoContainer = document.createElement('div');
         infoContainer.classList.add('country-info');
-        infoContainer.href=`country.html?name=${country.name.common}`
+        
         infoContainer.innerHTML= `
             <img src= "${country.flags.svg}" alt="flag">
             <div class="text">
