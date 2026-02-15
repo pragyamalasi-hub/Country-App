@@ -1,5 +1,10 @@
 const variable= new URLSearchParams(location.search).get('name');
 const Info= document.querySelector('.country-info');
+const modeChanger= document.querySelector('.mode-change');
+
+modeChanger.addEventListener('click', ()=>{
+    document.body.classList.toggle('dark');
+})
 
 fetch(`https://restcountries.com/v3.1/name/${variable}?fullText=true`)
 .then(res => res.json())
