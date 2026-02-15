@@ -17,7 +17,6 @@ Built with clean UI principles and dynamic JavaScript functionality.
 - 🔍 Search countries by name with live filtering  
 - 🌐 Filter countries by region  
 - 📄 Click on a country to view detailed information  
-- 🔗 Navigate between border countries  
 - 🌙 Light/Dark mode toggle  
 - 📱 Fully responsive design  
 
@@ -56,7 +55,7 @@ Country-App:
 
 ## 📸 Screenshots
 
-(Add screenshots of your homepage and country detail page here)
+
 
 ---
 
