@@ -8,7 +8,7 @@ fetch(`https://restcountries.com/v3.1/name/${variable}?fullText=true`)
         // console.log(country);
         const infoContainer= document.createElement('a');
         infoContainer.classList.add('country-info');
-        infoContainer.href=`/country.html?name=${country.name.common}`
+        infoContainer.href=`country.html?name=${country.name.common}`
         infoContainer.innerHTML= `
             <img src= "${country.flags.svg}" alt="flag">
             <div class="text">
