@@ -40,16 +40,16 @@ fetch(`https://restcountries.com/v3.1/name/${variable}?fullText=true`)
                 <h1>${country.name.common}</h1>
                 <div class="country-title">
                     <div class="left">
-                        <p><strong>Native Name: </strong>${Object.values(country.name.nativeName)[0].common}</p>
+                        <p><strong>Native Name: </strong>${country.name.nativeName? Object.values(country.name.nativeName)[0].common: country.name.common}</p>
                         <p><strong>Population: </strong>${country.population.toLocaleString()}</p> 
                         <p><strong>Region: </strong>${country.region}</p> 
                         <p><strong>Sub Region: </strong>${country.subregion}</p> 
-                        <p><strong>Capital: </strong>${country.capital}</p>
+                        <p><strong>Capital: </strong>${country.capital ? country.capital.join(', ') : 'N/A'}</p>
                     </div>
 
                     <div class="right">
                         <p><strong>Top Level Domain: </strong>${country.tld}</p>  
-                        <p><strong>Currencies: </strong>${Object.values(country.currencies)[0].name}</p> 
+                        <p><strong>currency: <strong>${country.currencies? Object.values(country.currencies)[0].name: 'N/A'}</p>
                         <p><strong>Languages: </strong>${Object.values(country.languages).join(', ')}</p> 
                     </div>
 
