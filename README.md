@@ -68,6 +68,7 @@ Country-App:
 - Add loading animations
 - Improve accessibility
 - Add favorites feature
+- Add border countries
 
 ---
 
