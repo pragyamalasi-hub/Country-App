@@ -54,10 +54,10 @@ Country-App:
 ---
 
 ## 📸 Screenshots
-<img width="1919" height="838" alt="image" src="https://github.com/user-attachments/assets/316c8b71-f6cd-4d2f-9acc-bca62934b4de" />
-<img width="1915" height="862" alt="image" src="https://github.com/user-attachments/assets/a0fcc889-939a-4969-bd49-7890c955adca" />
 
 
+<img width="1919" height="838" alt="Screenshot 2026-02-19 113230" src="https://github.com/user-attachments/assets/2b50cd31-be6c-417b-91c0-79b5a3be2a16" />
+<img width="1915" height="862" alt="Screenshot 2026-02-19 113337" src="https://github.com/user-attachments/assets/bec40639-d08f-498c-9402-1c22e4295658" />
 
 
 ---
