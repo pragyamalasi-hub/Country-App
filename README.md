@@ -54,6 +54,9 @@ Country-App:
 ---
 
 ## 📸 Screenshots
+<img width="1919" height="838" alt="image" src="https://github.com/user-attachments/assets/316c8b71-f6cd-4d2f-9acc-bca62934b4de" />
+<img width="1915" height="862" alt="image" src="https://github.com/user-attachments/assets/a0fcc889-939a-4969-bd49-7890c955adca" />
+
 
 
 
